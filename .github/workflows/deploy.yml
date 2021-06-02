@@ -19,4 +19,4 @@ jobs:
           branch: master
           folder: public
           repository-name: HotPotatoC/HotPotatoC.github.io
-          ssh-key: ${{ secrets.DEPLOYMENT_KEY }}
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
