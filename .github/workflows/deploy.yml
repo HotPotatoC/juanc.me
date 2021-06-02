@@ -2,7 +2,7 @@ name: Deploy To GitHub Pages
 on: [push]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
