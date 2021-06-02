@@ -32,13 +32,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Juan Christian`,
+        short_name: `Juan`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: "#0a0a0a",
+        theme_color: "#FFD400",
         display: `minimal-ui`,
-        icon: `docs/logo.svg`, // This path is relative to the root of the site.
+        icon: `src/images/favicons/favicon-32x32.png`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       },
     },
     {
