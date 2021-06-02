@@ -39,7 +39,7 @@ const GitHubIcon: React.FC = () => (
 )
 
 const Header: React.FC = () => (
-  <nav className="w-full fixed z-50 top-0 left-0 bg-dark">
+  <nav className="w-full fixed hidden md:block z-50 top-0 left-0 bg-dark">
     <div className="container mx-auto p-6">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl md:text-4xl">Juan</h1>
@@ -55,12 +55,12 @@ const Header: React.FC = () => (
 )
 
 const Footer: React.FC = () => (
-  <nav className="w-full h-96 bg-gray mt-36">
+  <nav className="w-full h-72 md:h-96 bg-gray mt-36">
     <div className="container mx-auto px-6 py-36">
       <div className="float-right">
         <section>
           <a
-            className="text-2xl md:text-4xl underline transition-colors duration-100 hover:text-alt"
+            className="text-lg md:text-4xl underline transition-colors duration-100 hover:text-alt"
             href="mailto:juandotulung@gmail.com"
           >
             juandotulung@gmail.com
@@ -71,7 +71,7 @@ const Footer: React.FC = () => (
             href="https://instagram.com/juanwmv"
             target="_blank"
             rel="noreferrer"
-            className="w-20 h-20 p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
+            className="w-12 h-12 md:w-20 md:h-20 p-3 md:p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
           >
             <InstagramIcon />
           </a>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => (
             href="https://twitter.com/juanwmv"
             target="_blank"
             rel="noreferrer"
-            className="w-20 h-20 p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
+            className="w-12 h-12 md:w-20 md:h-20 p-3 md:p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
           >
             <TwitterIcon />
           </a>
@@ -87,7 +87,7 @@ const Footer: React.FC = () => (
             href="https://github.com/HotPotatoC"
             target="_blank"
             rel="noreferrer"
-            className="w-20 h-20 p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
+            className="w-12 h-12 md:w-20 md:h-20 p-3 md:p-5 border border-light text-light hover:text-dark hover:border-alt hover:bg-alt rounded-full transition-colors duration-150"
           >
             <GitHubIcon />
           </a>

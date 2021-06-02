@@ -152,7 +152,7 @@ export const Index: React.FC = () => {
         image={selfImage.childImageSharp.fluid}
       />
 
-      <section className="container mx-auto w-full mt-32 md:mt-64 px-6">
+      <section className="container mx-auto w-full mt-24 md:mt-64 px-6">
         <section className="flex flex-wrap justify-between items-center font-monument-ultrabold">
           <div className="w-full overflow-hidden text-center">
             <motion.h1
