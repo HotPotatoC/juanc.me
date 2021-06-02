@@ -1,10 +1,15 @@
+const siteUrl = process.env.URL || process.env.DEPLOY_URL || `https://juanc.me`
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript Tailwind`,
-    description: `An example config of Gatsby + TypeScript + Tailwind CSS`,
-    author: `@gatsbyjs`,
+    title: `Juan ☕`,
+    titleTemplate: `Juan — %s`,
+    description: `Hi, my name is Juan Christian i am a web developer based in Indonesia and this is my portfolio site.`,
+    author: `@juanwmv`,
+    siteUrl,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -46,6 +51,12 @@ module.exports = {
           emitWarning: true,
           failOnError: false,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout.tsx`),
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

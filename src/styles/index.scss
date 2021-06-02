@@ -1,0 +1,27 @@
+@import "./abstract/mixins";
+
+@import "./base/colors";
+@import "./base/typography";
+
+:root {
+  --color-primary: $primary;
+  --color-black: $black;
+  --color-white: $white;
+}
+
+html * {
+  cursor: none;
+}
+
+html,
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* -ms-overflow-style: none; */
+  /* scrollbar-width: none; */
+  height: 100vh;
+  overflow: auto;
+  background: $black;
+  color: $white;
+  font-family: "Monument";
+}

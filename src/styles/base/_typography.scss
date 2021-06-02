@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Monument";
+  src: url("../fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "Monument-Ultrabold";
+  src: url("../fonts/MonumentExtended-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("../fonts/Axiforma-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler_Bold.otf");
+}
+
+.font-monument-ultrabold {
+  font-family: "Monument-Ultrabold";
+}
+
+.font-butler {
+  font-family: "Butler";
+}
+
+.font-axiforma {
+  font-family: "Axiforma";
+}
