@@ -19,3 +19,4 @@ jobs:
           external_repository: hotpotatoc/hotpotatoc.github.io
           publish_branch: master # default: gh-pages
           publish_dir: ./public
+          cname: juanc.me
